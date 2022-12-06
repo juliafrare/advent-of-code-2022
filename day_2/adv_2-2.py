@@ -2,7 +2,7 @@ guide = {'A': 1, 'B': 2, 'C': 3}
 
 total = 0
 
-with open("input", mode='r')as file:
+with open("input_2", mode='r')as file:
     for line in file:
         t, r = line.split()
 

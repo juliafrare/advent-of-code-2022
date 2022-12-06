@@ -3,7 +3,7 @@ mine = {'X': 1, 'Y': 2, 'Z': 3}
 
 total = 0
 
-with open("input", mode='r')as file:
+with open("input_2", mode='r')as file:
     for line in file:
         t, m = line.split()
 

@@ -1,6 +1,6 @@
 elves = []
 
-with open("adv_1.txt", mode="r") as file:
+with open("input_1", mode="r") as file:
     calories = 0
     for line in file:
         if line[:-1].isalnum():
